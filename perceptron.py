@@ -9,7 +9,7 @@ class Perceptron():
     self.learning_rate = 1
 
   def _sign(self, x):
-    '''Returms -1 for numbers lest than 0 and 1 for numbers greather than 0. It is the activation function'''
+    '''Returms -1 for numbers less than 0 and 1 for numbers greather than 0. It is the activation function'''
     return 1 if x >= 0 else -1
 
   def guess(self, inputs):
